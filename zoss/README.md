@@ -1,73 +1,114 @@
-# Welcome to your Lovable project
+# Modern React Application
 
-## Project info
+A modern web application built with React, TypeScript, and Vite, featuring a beautiful UI powered by shadcn/ui and Tailwind CSS.
 
-**URL**: https://lovable.dev/projects/b5b3eec1-b804-433c-aef3-5c8c196bf7fa
+## 🚀 Features
 
-## How can I edit this code?
+- ⚡️ Built with Vite for lightning-fast development
+- 🎨 Modern UI components using shadcn/ui
+- 🎯 TypeScript for type safety
+- 💅 Tailwind CSS for styling
+- 📱 Fully responsive design
+- 🔄 React Router for navigation
+- 📊 Recharts for data visualization
+- 🎭 Dark/Light mode support
+- 🔍 ESLint for code quality
+- 🎯 TypeScript for type safety
 
-There are several ways of editing your application.
+## 🛠️ Tech Stack
 
-**Use Lovable**
+- [React](https://reactjs.org/) - UI Library
+- [TypeScript](https://www.typescriptlang.org/) - Type Safety
+- [Vite](https://vitejs.dev/) - Build Tool
+- [Tailwind CSS](https://tailwindcss.com/) - Styling
+- [shadcn/ui](https://ui.shadcn.com/) - UI Components
+- [React Router](https://reactrouter.com/) - Routing
+- [React Query](https://tanstack.com/query/latest) - Data Fetching
+- [Zod](https://zod.dev/) - Schema Validation
+- [React Hook Form](https://react-hook-form.com/) - Form Handling
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/b5b3eec1-b804-433c-aef3-5c8c196bf7fa) and start prompting.
+## 📦 Installation
 
-Changes made via Lovable will be committed automatically to this repo.
+1. Clone the repository:
+```bash
+git clone <your-repository-url>
+cd <your-project-name>
+```
 
-**Use your preferred IDE**
+2. Install dependencies:
+```bash
+npm install
+```
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+3. Start the development server:
+```bash
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+4. Build for production:
+```bash
+npm run build
+```
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## 🚀 Deployment
 
-**Use GitHub Codespaces**
+### Deploying to Vercel
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+1. Push your code to GitHub
+2. Go to [Vercel](https://vercel.com) and sign up/login with your GitHub account
+3. Click "Add New Project"
+4. Select your repository
+5. Vercel will automatically detect the Vite configuration
+6. Click "Deploy"
 
-## What technologies are used for this project?
+The site will be live at `your-project-name.vercel.app`
 
-This project is built with:
+### Environment Variables
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+If your project uses environment variables, add them in the Vercel project settings:
 
-## How can I deploy this project?
+1. Go to your project settings in Vercel
+2. Navigate to the "Environment Variables" section
+3. Add your environment variables
 
-Simply open [Lovable](https://lovable.dev/projects/b5b3eec1-b804-433c-aef3-5c8c196bf7fa) and click on Share -> Publish.
+## 🏗️ Project Structure
 
-## Can I connect a custom domain to my Lovable project?
+```
+├── public/          # Static files
+├── src/            # Source files
+│   ├── components/ # React components
+│   ├── pages/      # Page components
+│   ├── styles/     # Global styles
+│   └── utils/      # Utility functions
+├── index.html      # Entry HTML file
+└── vite.config.ts  # Vite configuration
+```
 
-Yes, you can!
+## 📝 Available Scripts
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm run preview` - Preview production build
+- `npm run lint` - Run ESLint
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+## 🤝 Contributing
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
+## 📄 License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## 👥 Authors
+
+- Your Name - Initial work
+
+## 🙏 Acknowledgments
+
+- [shadcn/ui](https://ui.shadcn.com/) for the beautiful UI components
+- [Vite](https://vitejs.dev/) for the amazing build tool
+- [Tailwind CSS](https://tailwindcss.com/) for the utility-first CSS framework
